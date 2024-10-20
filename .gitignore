@@ -1,0 +1,45 @@
+# Директории виртуального окружения
+venv/
+.env/
+
+# Настройки среды разработки
+.idea/
+.vscode/
+
+# Кэшированные файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+*~
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+.pytest_cache/
+.cache/
+
+# Файлы конфигурации
+*.ini
+*.cfg
+*.iml
+
+# Файлы системы
+.DS_Store
+Thumbs.db
+
+# Файлы тестовых отчетов
+junit-*.xml
+report.html
+
+# Файлы, связанные с IDE
+.project
+.classpath
+
+# Файлы virtualenvwrapper
+*.swp
+.python-version
+
+# Файлы, связанные с coverage
+.coverage
+htmlcov/
